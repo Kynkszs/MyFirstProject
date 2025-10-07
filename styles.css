@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(2, 0, 7, 0.6) 0%, rgba(87, 0, 185, 0.6) 100%), url(bkmain.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.about {
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+
+}
+
+.services {
+    background-color: orange;
+    display: inline-block;
+    width: 49%
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
